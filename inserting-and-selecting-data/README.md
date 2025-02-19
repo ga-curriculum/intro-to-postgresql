@@ -37,6 +37,18 @@ VALUES
 
 > **Note:** We are not specifying the `id` column when inserting data into the `books` table. Since the `id` column is a `SERIAL` data type, PostgreSQL will automatically increment the value each time a new row is inserted.
 
+Now lets add our authors to the `authors` table:
+
+```postgres
+-- Insert multiple rows
+INSERT INTO authors (id, name, nationality)
+VALUES
+(1, 'Jane Austen', 'British'),
+(2, 'Harper Lee', 'American'),
+(3, 'George Orwell', 'British'),
+(4, 'Paulo Coelho', 'Brazilian');
+```
+
 ## Selecting data
 
 Now that we have data in our `books` table, we can use the `SELECT` command to query the data. The syntax for the `SELECT` command is as follows:

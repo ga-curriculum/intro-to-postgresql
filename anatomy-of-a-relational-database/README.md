@@ -27,13 +27,11 @@ Tables are the core components of a relational database. Here's a simple view of
         col    col                           col
          |      |                             |
        | id  | title                       | published_year |
-row  - | --- | --------------------------- | -------------- |
+       | --- | --------------------------- | -------------- |
 row  - | 1   | Pride and Prejudice         | 1813           |
 row  - | 2   | To Kill a Mockingbird       | 1960           |
 row  - | 3   | 1984                        | 1949           |
 row  - | 4   | The Alchemist               | 1988           |
-row  - | 5   | The Kite Runner             | 2003           |
-row  - | 6   | One Thousand and One Nights | 8th Century    |
 ```
 
 A table in a relational database holds data for a particular _data resource_ such as **_books_**, which is represented in columns like `title`, `author_id`, and `published_year`.
@@ -50,25 +48,21 @@ For example, a particular **book** is in a **books** table.
 
 TABLE: **books**
 
-| id (PK) | title                       | published_year | author_id (FK) |
-| ------- | --------------------------- | -------------- | -------------- |
-| 1       | Pride and Prejudice         | 1813           | 1              |
-| 2       | To Kill a Mockingbird       | 1960           | 2              |
-| 3       | 1984                        | 1949           | 3              |
-| 4       | The Alchemist               | 1988           | 4              |
-| 5       | The Kite Runner             | 2003           | 5              |
-| 6       | One Thousand and One Nights | 8th Century    | 6              |
+| id (PK) | title                 | published_year | author_id (FK) |
+| ------- | --------------------- | -------------- | -------------- |
+| 1       | Pride and Prejudice   | 1813           | 1              |
+| 2       | To Kill a Mockingbird | 1960           | 2              |
+| 3       | 1984                  | 1949           | 3              |
+| 4       | The Alchemist         | 1988           | 4              |
 
 TABLE: **authors**
 
-| id (PK) | name                    | nationality |
-| ------- | ----------------------- | ----------- |
-| 1       | Jane Austen             | British     |
-| 2       | Harper Lee              | American    |
-| 3       | George Orwell           | British     |
-| 4       | Paulo Coelho            | Brazilian   |
-| 5       | Khaled Hosseini         | Afghan      |
-| 6       | Traditional (Anonymous) | Various     |
+| id (PK) | name          | nationality |
+| ------- | ------------- | ----------- |
+| 1       | Jane Austen   | British     |
+| 2       | Harper Lee    | American    |
+| 3       | George Orwell | British     |
+| 4       | Paulo Coelho  | Brazilian   |
 
 ### Columns (fields)
 
