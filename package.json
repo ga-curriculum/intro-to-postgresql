@@ -1,0 +1,13 @@
+{
+  "name": "intro-to-postgresql",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "mdv": "node ga-mdlint"
+  },
+  "type": "module",
+  "author": "General Assembly",
+  "devDependencies": {
+    "ga-mdlint": "^1.0.5"
+  }
+}
