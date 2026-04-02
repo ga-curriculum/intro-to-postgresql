@@ -32,9 +32,9 @@ This module is all about learning to use SQL with PostgreSQL, one of the most po
 
 ### Course landing pages
 
-- [APD - Advanced Python for Developers](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-postgresql/canvas-landing-pages/apd.html)
-- [SEB - Software Engineering Bootcamp](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-postgresql/canvas-landing-pages/seb.html)
-- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-postgresql/canvas-landing-pages/fallback.html)
+- [APD - Advanced Python for Developers](https://ga-curriculum.github.io/intro-to-postgresql/canvas-landing-pages/apd.html)
+- [SEB - Software Engineering Bootcamp](https://ga-curriculum.github.io/intro-to-postgresql/canvas-landing-pages/seb.html)
+- [Fallback](https://ga-curriculum.github.io/intro-to-postgresql/canvas-landing-pages/fallback.html)
 
 ### Resources
 
@@ -46,4 +46,4 @@ This module is all about learning to use SQL with PostgreSQL, one of the most po
 
 ---
 
-**Find a 👾 bug 👾 or have suggestions? [Let us know](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/module-feedback.html)!**
+**Find a 👾 bug 👾 or have suggestions? [Let us know](https://ga-curriculum.github.io/universal-resources-internal/module-feedback.html)!**
